@@ -1,19 +1,29 @@
-SSK Education — Free Website Starter
-=====================================
-Included: index.html (Hindi/English), classes 1-12 and exam categories, notes/video placeholders, sample MCQ tests with local score history, demo username/password and simulated OTP login.
+SSK Education - Updated Starter Website
+========================================
 
-Important:
-- This is a static website demo. The OTP is simulated (123456); it does NOT send SMS.
-- Do not enter real passwords or sensitive information.
-- Real OTP, secure student accounts, data synced across devices, an admin panel, actual PDF downloads and video links need to be connected/configured.
-- Website is not online until you publish it.
+Included:
+- Responsive Hindi-first website for mobile and computer
+- Course categories: Classes 1-12, SSC, Railway, Police, CTET/TET
+- Sample study notes
+- YouTube search links for video learning
+- Sample MCQ quiz and score history saved only in the current browser
+- Demo username/password and demo OTP interface
 
-Publish for free with GitHub Pages:
-1. Sign in/create account at https://github.com/
-2. Create a PUBLIC repository (for example: ssk-education).
-3. Upload index.html to the repository root.
-4. Go to Settings > Pages.
-5. Select “Deploy from a branch”, branch “main”, folder “/(root)”, then Save.
-6. Wait for GitHub Pages to display the live site address in Settings > Pages.
+Important limitations:
+- Demo login is NOT real authentication.
+- Demo OTP does NOT send SMS. The shown code 123456 is only for testing.
+- Quiz results are stored only in the browser used to take the test; they are not sent to an online database.
+- No student admin panel or secure account system is included.
+- Add your own verified PDFs and video URLs before presenting them as your course materials.
 
-GitHub Pages serves static files. Real login/OTP requires a backend/authentication service.
+To update the live GitHub Pages site:
+1. Open your repository: SSK-Education
+2. Click Add file > Upload files.
+3. Upload this new index.html and choose to replace the existing file if prompted.
+4. Click Commit changes.
+5. Wait a few minutes and refresh your website.
+
+Live URL based on the screenshot shared:
+https://kumarshyamsundar3793-art.github.io/SSK-Education/
+
+Never share GitHub passwords or OTPs with anyone.
